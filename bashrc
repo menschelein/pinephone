@@ -24,3 +24,7 @@ alias pi='ping www.wikipedia.org'
 alias new='doas reboot'
 alias schreib="vim /home/manjaro/Documents/'To Do'"
 alias zeit='doas ntpd -g -q'
+alias get='doas pacman -S'
+alias unget='doas pacman -R'
+alias get-update='doas pacman -Syu'
+alias get-clean='doas pacman -Qtdq | doas pacman -Rns -'
